@@ -49,7 +49,8 @@ public class Sound
 int[] robertsLaw = new int[samples.length - count];
  for(int i = 0; i < robertsLaw.length; i++){
   robertsLaw[i] = samples[i + count];
- }   
+ }
+    samples = robertsLaw;
   }
 
   
